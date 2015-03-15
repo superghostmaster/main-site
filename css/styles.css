@@ -1,0 +1,169 @@
+/**
+NAMING CONVENTIONS:
+	--X-LANDING-POSTION (EXA - MAIN-LANDING-COL FOR MAIN LANDING PAGE, COLUMN)
+	--X-LANDING.CLASS (EXA - MAIN-LANDING.BTN FOR BOOTSTRAP-STYLE CLASSES)
+	--ITEM+FUNCTION FOR ID'S
+	--ID.CLASS FOR TARGETED ID'S
+**/
+
+/** all **/
+html, body {
+  height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color:#fff;
+}
+
+/***********************************/
+/** NAVIGATION **/
+.navbar-default {
+	background-color: #ff8000;
+	border:none;
+}
+
+.nav {
+	padding-left: 40px;
+}
+
+.nav>li>a:hover {
+	background-color: #e57300;
+	color:#f5f5f5;
+}
+
+#navigation {
+	margin-top: 40px;
+}
+
+/***********************************/
+/**HAMBURGER MENU **/
+#menu-container {
+	margin-left: 30px;
+}
+
+#menu-button, #menu-button-dark {
+	width: 40px;
+	
+	margin-top: 46px;
+	font-size: 20px;	
+	color: #f5f5f5;
+	padding: 4px;
+}
+
+#menu-button:hover {
+	background: rgba(204,102,0, .3);
+}
+
+/***********************************/
+/** HOME PAGE (MAIN LANDING)**/
+#main-landing {
+	background: #ff8000;
+	height: 100%;
+	width: 100%;
+}
+
+/***********************************/
+/** HOME PAGE - MAIN LOGO STYLING **/
+#main-logo {
+	width: 220px;
+	margin-left: 43%;
+	margin-right: 43%;
+}
+
+#main-drop {
+	width: 320px;
+	
+}
+
+#drop-container {
+	margin-top: 12%;
+}
+
+/***********************************/
+/** ABOUT PAGE (SECOND LANDING) **/
+#second-landing.container, #third-landing.container {
+	width:100%;
+	height: 100%;
+	min-height: 100%;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+#second-landing.jumbotron, #third-landing.jumbotron {
+	min-height: 100%;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+#second-landing.jumbotron {
+	background-color: rgba(43,142,252, .5);
+}
+
+#second-landing.row, #third-landing.row{
+	margin-top: 50px;
+}
+
+#second-landing.thumbs {
+	top: 140px;
+}
+
+#second-landing.thumbnail {
+	padding-top: 350px;
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,.5);
+	border-radius: 0px;
+}
+
+/***********************************/
+/** CONTACT PAGE **/
+#third-landing.jumbotron {
+	background-color: rgba(134,0,162, .5);
+}
+
+/***********************************/
+/** ALL ARROW BUTTON ANIMATIONS **/
+.arrow-col {
+	margin-top: 80px;
+	left:40px;
+}
+
+.arrow-btn {
+	background-repeat: no-repeat;
+	background-size: 40%;
+	margin-left: 48%;
+	margin-right: 48%;
+	width:60px;
+	height:60px;
+}
+
+/** ALL DOWN ARROW DEFAULT IMAGES **/
+.down-arrow-btn {
+	background-image: url("../assets/down-arrow.png");
+}
+
+.up-arrow-btn {
+	background-image: url("../assets/up-arrow.png");	
+}
+
+
+/** ALL ARROW BTN ON-HOVER IMAGE SETTINGS **/
+.arrow-btn:hover {
+	background-repeat: no-repeat;
+}
+
+/** ARROW IMAGE BEHAVIOR ON-HOVER - SPECIFIC PAGES / LANDING **/
+#home-down-arrow.down-arrow-btn:hover {
+	background-image: url("../assets/down-shadow.png");
+}
+
+#about-up-arrow.up-arrow-btn:hover {
+	background-image: url("../assets/up-shadow-about.png");	
+}
+
+#about-down-arrow.down-arrow-btn:hover {
+	background-image: url("../assets/down-shadow-about.png");	
+}
+
+#contact-up-arrow.up-arrow-btn:hover {
+	background-image: url("../assets/up-shadow-contact.png");	
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="358px" height="100px" viewBox="0 0 358 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Main Logo@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-3" sketch:type="MSArtboardGroup" transform="translate(-850.000000, -1018.000000)">
+            <g id="Full-Main-Logo" sketch:type="MSLayerGroup" transform="translate(774.000000, 518.000000)">
+                <g id="Main-Logo" transform="translate(76.000000, 500.000000)">
+                    <text id="Creative" sketch:type="MSTextLayer" font-family="Roboto" font-size="24" font-weight="260" fill="#FFFFFF">
+                        <tspan x="272.701149" y="89">Creative</tspan>
+                    </text>
+                    <g id="Group" sketch:type="MSShapeGroup">
+                        <ellipse id="Oval-1" fill="#FFFFFF" cx="52.4425287" cy="50" rx="52.4425287" ry="50"></ellipse>
+                        <ellipse id="Oval-2" fill="#FF8000" cx="52.529933" cy="50.0833333" rx="45.8872126" ry="43.75"></ellipse>
+                    </g>
+                    <g id="rangeInk-Creative-+-Ink" transform="translate(108.031609, 8.000000)" font-size="64" font-family="Roboto" sketch:type="MSTextLayer" font-weight="260">
+                        <text id="range" fill="#FFFFFF">
+                            <tspan x="0" y="59">range</tspan>
+                        </text>
+                        <text id="Ink" fill="#000000">
+                            <tspan x="165.980603" y="59">Ink</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
