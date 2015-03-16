@@ -14,7 +14,7 @@ $(document).ready(function() {
 //show nav menu when hamburger icon is clicked
 $("#menu-hamburger").click(function() {
 	/* Act on the event */
-	$("#navigation").fadeToggle('fast');
+	$("#navigation, .arrow-btn").fadeToggle('fast');
 });
 
 //hide the light hamburger, show the dark hamburger and nav to about page position
@@ -24,6 +24,7 @@ $("#home-down-arrow, #about, #contact-up-arrow").click(function() {
 		$("#menu-button-dark").fadeToggle("fast", "linear", 200 );	
 	});
 	$("#navigation").hide('fast');
+	$(".arrow-btn").show('fast');
 	$('html, body').animate({
 		scrollTop:$("#second-landing").offset().top
 	}, 'slow')
@@ -38,6 +39,7 @@ $("#about-down-arrow, #contact").click(function() {
 
 	//scoll page position to third(last) landing page
 	$("#navigation").hide('fast');
+	$(".arrow-btn").show('fast');
 	$('html, body').animate({
 		scrollTop:$("#third-landing").offset().top
 	}, 'slow')
@@ -51,6 +53,7 @@ $("#home, #about-up-arrow").click(function() {
 	$("#menu-button").fadeIn(100);
 
 	//scroll page to home position
+	$(".arrow-btn").show('fast');
 	$('html, body').animate({
 		scrollTop:$("#home-top").offset().top
 	}, 'fast');
